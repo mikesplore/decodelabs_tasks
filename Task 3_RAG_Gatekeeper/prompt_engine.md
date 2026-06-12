@@ -11,13 +11,7 @@ You are a senior technical analyst. Your objective is to provide accurate, fact-
 
 ### CONTEXT DATA
 <context>
-[Para 1] Employees are eligible for 20 days of Paid Time Off (PTO) annually after completing their first year of service. Unused PTO does not roll over to the next calendar year.
-
-[Para 2] The company provides a comprehensive health insurance plan that covers dental and vision. Enrollment is mandatory within 30 days of hire date.
-
-[Para 3] Remote work is permitted up to two days per week for employees in the Engineering and Product departments. All other departments require full-time onsite presence.
-
-[Para 4] The fiscal year ends on December 31st. Performance reviews are conducted in January, and bonuses are distributed in February based on the previous year's performance.
+{{INSERT_CONTEXT_HERE}}
 </context>
 
 ### FEW-SHOT EXAMPLES

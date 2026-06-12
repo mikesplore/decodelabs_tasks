@@ -1,0 +1,5 @@
+Test Case 1: Standard Work Rate
+If 3 elves can wrap 3 toys in 1 hour, how many elves does it take to wrap 6 toys in 2 hours?
+
+Test Case 2: The Cognitive Reflection Trap
+If it takes 5 machines 5 minutes to make 5 widgets, how long does it take 100 machines to make 100 widgets?

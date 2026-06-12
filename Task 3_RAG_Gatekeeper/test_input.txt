@@ -1,0 +1,2 @@
+Query 1 (Valid): What is the capacity of the Etihad Stadium?
+Query 2 (Distractor): Who is the current manager of Manchester City?

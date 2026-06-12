@@ -1,0 +1,9 @@
+--- Test 1 ---
+Input Context: [Para 1]... [Para 2]... [Para 3]...
+Query: What is the capacity of the Etihad Stadium?
+Output: The Etihad Stadium has a capacity of over 50,000 spectators [Para 2].
+
+--- Test 2 ---
+Input Context: [Para 1]... [Para 2]... [Para 3]...
+Query: Who is the current manager of Manchester City?
+Output: Information Not Found

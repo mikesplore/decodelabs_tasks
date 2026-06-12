@@ -1,0 +1,45 @@
+--- Test Case 1 Output ---
+<reasoning>
+1. Extract Variables:
+   - Elves_initial: 3
+   - Toys_initial: 3
+   - Time_initial: 1 hour
+   - Toys_target: 6
+   - Time_target: 2 hours
+
+2. Formulate Equation:
+   - Rate per elf = Toys_initial / (Elves_initial * Time_initial)
+   - Rate = 3 / (3 * 1) = 1 toy/elf/hour.
+   - Elves_target = Toys_target / (Rate * Time_target)
+
+3. Calculate:
+   - Elves_target = 6 / (1 * 2) = 3 elves.
+
+4. Inner Critic:
+   - If 3 elves make 3 toys in 1 hour, they make 6 toys in 2 hours. The target is 6 toys in 2 hours. The number of elves remains 3. Logic holds.
+</reasoning>
+<final answer>3 elves</final answer>
+
+--- Test Case 2 Output ---
+<reasoning>
+1. Extract Variables:
+   - Machines_initial: 5
+   - Time_initial: 5 minutes
+   - Widgets_initial: 5
+   - Machines_target: 100
+   - Widgets_target: 100
+
+2. Formulate Equation:
+   - Rate per machine = Widgets_initial / (Machines_initial * Time_initial)
+   - Rate = 5 / (5 * 5) = 0.2 widgets/machine/minute.
+   - Time_target = Widgets_target / (Machines_target * Rate)
+
+3. Calculate:
+   - Time_target = 100 / (100 * 0.2)
+   - Time_target = 100 / 20
+   - Time_target = 5 minutes.
+
+4. Inner Critic:
+   - System 1 intuition suggests 100 minutes, but each machine works independently. If 1 machine takes 5 minutes to make 1 widget, then 100 machines working in parallel will still take 5 minutes to make 100 widgets. The logic holds.
+</reasoning>
+<final answer>5 minutes</final answer>
