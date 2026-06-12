@@ -1,0 +1,24 @@
+<reasoning>
+1. Extract Variables:
+   - Elves_initial ($E_1$): 3
+   - Toys_initial ($W_1$): 3
+   - Time_initial ($T_1$): 1 hour
+   - Toys_target ($W_2$): 6
+   - Time_target ($T_2$): 2 hours
+   - Elves_target ($E_2$): Unknown
+
+2. Formulate Equation:
+   - Work is proportional to the number of workers and the time spent: $W = R \times E \times T$, where $R$ is the rate per elf.
+   - Initial rate ($R$): $R = W_1 / (E_1 \times T_1)$
+   - Target elves ($E_2$): $E_2 = W_2 / (R \times T_2)$
+
+3. Calculate:
+   - $R = 3 / (3 \times 1) = 1$ toy per elf per hour.
+   - $E_2 = 6 / (1 \times 2) = 6 / 2 = 3$ elves.
+
+4. Inner Critic:
+   - 3 elves wrap 3 toys in 1 hour.
+   - In 2 hours, those same 3 elves would wrap 6 toys (doubling the time doubles the output for the same number of elves).
+   - The target is 6 toys in 2 hours, which matches the output of the original 3 elves. The calculation is correct.
+</reasoning>
+<final answer>3 elves</final answer>
